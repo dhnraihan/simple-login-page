@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #FEFEFE;
+}
+h1{
+    font-size: 18px;
+}
+.container{
+    padding: 30px;
+}
+.user {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.fill input{
+    width: 100%;
+    padding: 10px 25px; /* বাম ও ডান পাশে জায়গা রাখার জন্য */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 5px 0px 18px 0px;
+    background: #E8F0FD;
+}
+.btn {
+    width: 100%;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #faf7f7;
+    background: #04A96D;
+    box-sizing: border-box;
+    
+}
+span{
+    place-items: center;
+    display: grid;
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size:40px;
+}
+.footer{
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    background: rgb(136, 135, 134);
+}
+.footer input{
+    margin-top: -16px;
+    width: 90px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background-color: #F64233;
+}
+h2{
+    position: absolute;
+    right: 20px;
+    margin-top: -16px;
+}
+.footer h2{
+    font-size: 15px;
+}
+.footer a{
+    color: #2C35DF;
+}
